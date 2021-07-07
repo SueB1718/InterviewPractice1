@@ -1,5 +1,5 @@
 
-@DynamicControls
+@Test@DynamicControls
 Feature: Dynamic Controls
 
   Background:

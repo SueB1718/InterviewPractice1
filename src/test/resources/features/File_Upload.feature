@@ -1,5 +1,5 @@
 
-@FileUpload
+@Test@FileUpload
 Feature: File Upload
   Test uses Upload Button or Drag and Drop to upload a file.
   Test asserts that the file is uploaded.

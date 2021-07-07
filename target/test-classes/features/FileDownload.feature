@@ -1,6 +1,8 @@
+
+@Test@FileDownload
 Feature: File Download
 
-  @FileDownload
+
   Scenario:
     Given user is on the File Download page
     When user  clicks on the file.

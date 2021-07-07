@@ -1,3 +1,5 @@
+
+@Test@Login
 Feature: Login feature // explain
   As a user, I should be able to login with correct credential
   As a user, I should fail to login with wrong credential

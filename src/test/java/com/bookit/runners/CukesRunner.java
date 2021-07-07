@@ -16,7 +16,8 @@ plugin = {
    features= "src/test/resources/features",
    glue= "com/bookit/step_definitions",
         dryRun = false,
-        tags="@MouseHover"
+       tags="@Test"
+        //for parallel testing comment tags part and double click test in maven
 
 )
 

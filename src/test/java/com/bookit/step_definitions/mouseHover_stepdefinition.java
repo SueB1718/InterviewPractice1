@@ -30,25 +30,28 @@ public class mouseHover_stepdefinition {
 //        for (WebElement eachImage : imagesList) {
 //            actions.moveToElement(eachImage).perform();
 //
-//            System.out.println("mouseHover.text1.getText() = " + mouseHover.text1.getText());
-//            System.out.println("mouseHover.text2.getText() = " + mouseHover.text2.getText());
-//            System.out.println("mouseHover.text3.getText() = " + mouseHover.text3.getText());
+//
 
             for (int i = 0; i < imagesList.size(); i++) {
                actions.moveToElement(imagesList.get(i)).perform();
                 System.out.println("imagesList.get(i).getText() = " + imagesList.get(i).getText());
+
+           //     System.out.println("\"name: user\" = " + ("name: user" + (i+1)));
+                Assert.assertTrue(imagesList.get(i).getText().contains("name: user"+ (i+1)));
+
             }
 
         }
-
-
 
     @Then("additional information is displayed for each image.")
     public void additional_information_is_displayed_for_each_image() {
     //    System.out.println("mouseHover.text1.getText() = " + mouseHover.text1.getText());
 
-    Assert.assertTrue(mouseHover.text1.getText().equals("name: user1"));  //when running it fails
-      Assert.assertTrue(mouseHover.text2.getText().equals("name: user2"));  //when running it fails
+//        System.out.println("mouseHover.text1.getText() = " + mouseHover.text1.getText());
+//            System.out.println("mouseHover.text2.getText() = " + mouseHover.text2.getText());
+//            System.out.println("mouseHover.text3.getText() = " + mouseHover.text3.getText());
+//    Assert.assertTrue(mouseHover.text1.getText().equals("name: user1"));  //when running it fails
+//      Assert.assertTrue(mouseHover.text2.getText().equals("name: user2"));  //when running it fails
         Assert.assertTrue(mouseHover.text3.getText().equals("name: user3"));
     }
 

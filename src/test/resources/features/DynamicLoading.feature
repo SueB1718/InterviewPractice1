@@ -1,6 +1,8 @@
+
+@Test@DynamicLoading
 Feature: Dynamic Loading
 
-  @DynamicLoading
+
   Scenario:
 Given User is on Dynamic Loading page
  When user clicks the start button and uses explicit wait.

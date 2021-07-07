@@ -1,5 +1,5 @@
 
-@ContextMenu
+@Test@ContextMenu
 Feature: Context Menu
 
   Background: User is already on Context Menu page

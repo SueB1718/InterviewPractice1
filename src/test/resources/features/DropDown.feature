@@ -1,5 +1,6 @@
+@Test@Dropdown
 Feature: Dropdown feature
-  @Dropdown
+
   Scenario:
   Test selects Option 1 and Option 2 from the drop down menu.
   Test asserts Option 1 and Option 2 are selected.

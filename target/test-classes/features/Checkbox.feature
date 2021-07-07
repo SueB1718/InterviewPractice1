@@ -1,5 +1,5 @@
 
-@checkbox
+@Test@checkbox
 Feature: Checkbox feature
   Test checks and unchecks checkboxes.
   Test uses assertions to make sure boxes were properly checked and unchecked.
